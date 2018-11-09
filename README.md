@@ -26,4 +26,4 @@ npm 5.6.0
 
 ## 注意
 
-我刚开始使用Monine提供的拼personal access token的方法时，总是不起作用，token依然失效。后来发现npm run build的时候。webpack会将你拼接的字符串重新组合在一起。所以，build结束后要去压缩好的文件里去搜你的token，重新改成字符拼接的格式。因为请求issues的类型都是get，Monine的做法是在url后接参数的形式。这种方式换成域名访问的形式就总会失效。后来找到个方式[OAuth2 token (sent in a header)](https://developer.github.com/v3/#authentication)，通过axio在报文头里增加键值，在报文头中添加`'Authorization': 'yourAccessToken'`这串秘钥可以存到vuex中，实际上我也是这么做的（同样记得用字符串拼接的形式）。
+我刚开始使用Monine提供的拼personal access token的方法时，总是不起作用，token依然失效。后来发现npm run build的时候。webpack会将你拼接的字符串重新组合在一起。所以，build结束后要去压缩好的文件里去搜你的token，重新改成字符拼接的格式。因为请求issues的类型都是get，Monine的做法是在url后接参数的形式。这种方式换成域名访问的形式就总会失效。后来找到个方式[OAuth2 token (sent in a header)](https://developer.github.com/v3/#authentication)，通过axio在报文头里增加键值，在报文头中添加`'Authorization': yourAccessToken`这串秘钥可以存到vuex中，实际上我也是这么做的（同样记得用字符串拼接的形式）。
