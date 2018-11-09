@@ -21,7 +21,7 @@ npm 5.6.0
 
 由vue-router、vuex及构建工具vue-cli、webpack、less等打造。
 
-## 原理
+## 思路
 
 比如我的github的username是MichelMa666，那我的文章就以markdown格式写在MichaelMa666.github.io这个库的issues下面，然后通过github提供的[issues api](https://developer.github.com/v3/issues/)去请求文章内容通过[marked.js](https://www.npmjs.com/package/marked)再渲染到页面上。其中有几个重要的问题需要关注：[Monine也写得很清楚](https://github.com/Monine/monine.github.io/blob/master/README.md )
 
