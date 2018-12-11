@@ -1,5 +1,5 @@
 # MIchael's Blog
-> 16年，看到一个学弟介绍了他自己的blog，是由hexo+next+github搭建的，觉得挺有趣的，所以自己也做了一个。但是觉得每次都要打开git shell去执行generate、deploy等操作十分麻烦，而且看着整个工程目录都是hexo封装好的包，不知道它里面都做了什么，十分难受。
+> 2016年，看到一个学弟介绍了他自己的blog，是由hexo+next+github搭建的，觉得挺有趣的，所以自己也做了一个。但是觉得每次都要打开git shell去执行generate、deploy等操作十分，而且看着整个工程目录都是hexo封装好的包，不知道它里面都做了什么，十分难受。
 >
 > 之后接触了ghost，觉得ghost的很多主题很nice，它提供一个后台的管理界面，所有想要发布的东西都要登录这个后台管理界面去编辑去发布。这种托管ghost跳了好几层的体验很别扭，更无奈的是ghost只支持node`0.10.*`版本，这让我不得不又研究了一下[nvm](https://github.com/coreybutler/nvm-windows)。
 >
