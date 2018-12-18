@@ -6,36 +6,24 @@
 > 2017年偶然在网上看到了一个网友[Monine](https://monine.github.io/#/)的神奇操作，惊呆了。 决定试试这个。
 >
 > 用到以上这些内容的归根结底的原因还是个人维护一个云服务器+一个自己喜欢的域名有点小心疼。（最后还是咬牙买了10年的[maxiaobo.top](https://maxiaobo.top/)）
-# maxiaoboblog
 
 ## 环境
-> A Vue.js project
+
 Node.js 8.10.0
-## Build Setup
 
 npm 5.6.0
-``` bash
-# install dependencies
-npm install
+
 ## 服务器
-# serve with hot reload at localhost:8080
-npm run dev
+
 [GitHub Pages](https://pages.github.com/)
-# build for production with minification
-npm run build
+
 ## SPA
-# build for production and view the bundle analyzer report
-npm run build --report
+
 由vue-router、vuex及构建工具vue-cli、webpack、less等打造。
-# run unit tests
-npm run unit
+
 ## 思路
-# run e2e tests
-npm run e2e
+
 比如我的github的username是MichelMa666，那我的文章就以markdown格式写在MichaelMa666.github.io这个库的issues下面，然后通过github提供的[issues api](https://developer.github.com/v3/issues/)去请求文章内容通过[marked.js](https://www.npmjs.com/package/marked)再渲染到页面上。其中有几个重要的问题需要关注：[Monine也写得很清楚](https://github.com/Monine/monine.github.io/blob/master/README.md )
-# run all tests
-npm test
-```
 
 ## 注意
 
